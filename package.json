@@ -1,0 +1,30 @@
+{
+  "name": "ai-ui-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "next": "14",
+    "react": "18",
+    "react-dom": "18"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "typescript": "5",
+    "tailwindcss": "3",
+    "postcss": "8",
+    "autoprefixer": "10",
+    "storybook": "7",
+    "@storybook/react": "7",
+    "@storybook/addon-essentials": "7"
+  }
+}

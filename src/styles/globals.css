@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-muted: #6b7280;
+}
+
+[data-theme='dark'] {
+  --color-bg: #0b1220;
+  --color-surface: #071021;
+  --color-muted: #9ca3af;
+  color-scheme: dark;
+}
+
+.bg-ui-bg { background-color: var(--color-bg); }
+.bg-ui-surface { background-color: var(--color-surface); }
+.text-muted { color: var(--color-muted); }
